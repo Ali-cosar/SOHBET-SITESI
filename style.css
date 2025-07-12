@@ -1425,3 +1425,49 @@ body.dark .emoji-panel {
     border: 2px solid blue !important; /* TEST için */
   }
 }
+
+
+
+@media (max-width: 600px) {
+  body, html {
+    width: 100vw !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    overflow-x: hidden !important;
+  }
+  .chat-container {
+    width: 100vw !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+  .login-box,
+  .chat-box {
+    display: block !important;
+    margin: 30px auto 0 auto !important;
+    width: 96vw !important;
+    max-width: 400px !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    padding: 16px 4vw !important;
+    border-radius: 12px !important;
+    border: 2px solid red !important;
+  }
+  .login-box input,
+  .login-box button {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 8px 0 !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+    display: block !important;
+    border: 2px solid blue !important;
+  }
+}
