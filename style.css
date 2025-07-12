@@ -1398,34 +1398,6 @@ body.dark .emoji-panel {
 }
 
 
-@media (max-width: 600px) {
-  .login-box,
-  .chat-box {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    margin: 30px auto 0 auto !important;
-    width: 96vw !important;
-    max-width: 400px !important;
-    min-width: 0 !important;
-    box-sizing: border-box !important;
-    padding: 16px 4vw !important;
-    border-radius: 12px !important;
-    border: 2px solid red !important; /* TEST için - kutunun kenarına kırmızı çizgi ekler */
-  }
-  .login-box input,
-  .login-box button {
-    width: 100% !important;
-    max-width: 340px !important;
-    margin: 8px 0 !important;
-    box-sizing: border-box !important;
-    text-align: center !important;
-    display: block !important;
-    border: 2px solid blue !important; /* TEST için */
-  }
-}
-
 
 
 @media (max-width: 600px) {
