@@ -414,7 +414,6 @@ body.dark .login-box {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   transition: background 0.3s;
 }
 body.dark .login-title {
