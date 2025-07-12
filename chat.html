@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genel Sohbet Odası</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="index.html" id="home-btn" class="home-btn" title="Ana Sayfa">🏠</a>
+  <button id="theme-toggle" class="theme-toggle" title="Tema Değiştir">🌙</button>
+  <div class="chat-container">
+    <div class="chat-box">
+      <div class="chat-header">
+        <span id="user-info"></span>
+        <span>Genel Sohbet Odası</span>
+      </div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <div id="typing-indicator"></div>
+      <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Mesajınızı yazın..." maxlength="250" />
+        <button type="button" id="emoji-btn" title="Emoji">😊</button>
+        <div id="emoji-panel" class="emoji-panel">
+  <div id="emoji-search-container"><input id="emoji-search" placeholder="Emoji ara..." /></div>
+  <div id="recent-emojis"></div>
+  <div id="emoji-list"></div>
+</div>
+        <button id="send-btn">Gönder</button>
+      </div>
+    </div>
+    <div class="user-list-panel">
+      <div class="user-list-header">
+        <span>Kullanıcılar (<span id="user-count">0</span>)</span>
+      </div>
+      <ul class="user-list" id="user-list"></ul>
+    </div>
+  </div>
+  <script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genel Sohbet Odası</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo">PULSTAR</div>
+  <button id="theme-toggle" class="theme-toggle" title="Tema Değiştir">🌙</button>
+  <div id="ban-warning" class="ban-warning" style="display:none;"></div>
+  <div class="login-box" id="login-box">
+    <div class="login-header">
+      <h2 class="login-title">Genel Sohbet Odası</h2>
+    </div>
+    <input type="text" id="username-input" class="login-input" placeholder="Kullanıcı Adı" maxlength="20" autocomplete="off" />
+    <button id="join-btn" class="login-btn">Sohbete Katıl</button>
+    <div id="username-warning" class="warning-message" style="display:none;"></div>
+  </div>
+  <div class="chat-container" id="chat-container">
+    <div class="chat-box" id="chat-box" style="display: none;">
+      <div class="chat-header">
+        <span id="user-info"></span>
+        <span>Genel Sohbet Odası</span>
+      </div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Mesajınızı yazın..." maxlength="250" />
+        <button id="send-btn">Gönder</button>
+      </div>
+    </div>
+  </div>
+  <div id="custom-message" class="custom-message">SİTEMİZE HOŞ GELDİN lÜTFEN ELEŞTİRİLERİNİ SİTEMİZİN HALA GEŞİTRİLME AŞAMSINDA OLDUĞUNU BİLEREK YAPINIZ
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
